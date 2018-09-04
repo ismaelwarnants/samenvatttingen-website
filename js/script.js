@@ -709,3 +709,18 @@ function rooster() {
         });
     }
 }
+function rooster2() {
+    $("#introText").css({
+        "display": "block"
+    });
+    $(".titel3").css({
+        "display": "block"
+    });
+    $("#table2").css({
+        "display": "none"
+    });
+    $(".txt").css({
+        "padding-left": "1%",
+        "padding-right": "1%"
+    });
+}
