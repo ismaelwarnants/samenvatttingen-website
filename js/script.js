@@ -692,3 +692,20 @@ function closeHelp() {
         "display": "none"
     });
 }
+
+function rooster() {
+    if (isMobile.any()) {
+        $("#introText").css({
+            "display": "none"
+        });
+        $(".titel3").css({
+            "display": "none"
+        });
+        $("#table2").css({
+            "display": "block"
+        });
+        $(".txt").css({
+            "padding": "0"
+        });
+    }
+}

@@ -527,3 +527,8 @@ a:hover {
 #lesHelp {
 	display: none;
 }
+#table2 {
+	display: none;
+	width: 100%;
+	position: absolute;
+}
