@@ -499,37 +499,27 @@ function mobile() {
     var collumns = table.getElementsByTagName("td");
     var headers = table.getElementsByTagName("th");
 
+    var table2 = document.getElementById("table2");
+    var collumns2 = table2.getElementsByTagName("td");
+    var headers2 = table2.getElementsByTagName("th");
+
     var d = new Date();
     var n = d.getDay();
-    if(n == 1){
-        for(var i = 1; i <= 37; i += 6){
-            collumns[i].style.backgroundColor = "#dddddd";
+    for(var i = 1; i < 6; i++){
+        if(n == i){
+            for(var z = i; z <= 37 + i; z += 6){
+                collumns[z].style.backgroundColor = "#dddddd";
+            }
+            headers[i].style.backgroundColor = "#dddddd";
         }
-        headers[1].style.backgroundColor = "#dddddd";
     }
-    else if(n == 2){
-        for(var i = 2; i <= 38; i += 6){
-            collumns[i].style.backgroundColor = "#dddddd";
+    for(var i = 1; i < 6; i++){
+        if(n == i){
+            for(var z = i; z <= 37 + i; z += 6){
+                collumns2[z].style.backgroundColor = "#dddddd";
+            }
+            headers2[i].style.backgroundColor = "#dddddd";
         }
-        headers[2].style.backgroundColor = "#dddddd";
-    }
-    else if(n == 3){
-        for(var i = 3; i <= 39; i += 6){
-            collumns[i].style.backgroundColor = "#dddddd";
-        }
-        headers[3].style.backgroundColor = "#dddddd";
-    }
-    else if(n == 4){
-        for(var i = 4; i <= 40; i += 6){
-            collumns[i].style.backgroundColor = "#dddddd";
-        }
-        headers[4].style.backgroundColor = "#dddddd";
-    }
-    else if(n == 5){
-        for(var i = 5; i <= 41; i += 6){
-            collumns[i].style.backgroundColor = "#dddddd";
-        }
-        headers[5].style.backgroundColor = "#dddddd";
     }
 };
 
