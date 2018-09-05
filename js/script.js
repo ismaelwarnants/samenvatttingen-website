@@ -656,6 +656,14 @@ function summHelp() {
         "display": "block"
     });
 }
+function summHelp2() {
+    $("#helpChoice").css({
+        "display": "none"
+    });
+    $("#summHelp2").css({
+        "display": "block"
+    });
+}
 function lesHelp() {
     $("#helpChoice").css({
         "display": "none"
@@ -669,16 +677,7 @@ function closeHelp() {
     $("#introText").css({
         "display": "block"
     });
-    $("#helpChoice").css({
-        "display": "none"
-    });
-    $("#jaarHelp").css({
-        "display": "none"
-    });
-    $("#summHelp").css({
-        "display": "none"
-    });
-    $("#lesHelp").css({
+    $(".helpTxt").css({
         "display": "none"
     });
 }

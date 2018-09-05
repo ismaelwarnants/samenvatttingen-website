@@ -515,16 +515,7 @@ td:nth-child(1) {
 a:hover {
 	cursor: pointer;
 }
-#helpChoice {
-	display: none;
-}
-#jaarHelp {
-	display: none;
-}
-#summHelp {
-	display: none;
-}
-#lesHelp {
+.helpTxt {
 	display: none;
 }
 #table2 {
