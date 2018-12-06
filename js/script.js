@@ -673,7 +673,7 @@ function lesHelp() {
     });
 }
 function closeHelp() {
-	$(".titel3").text("Samenvattingen");
+	$(".titel3").text("SAMENVATTINGEN");
     $("#introText").css({
         "display": "block"
     });
